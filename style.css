@@ -1,0 +1,159 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+  
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+header, .container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5em;
+    margin: auto;
+    height: 3.5em;
+    width: auto;
+}
+
+p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.description-text{
+    margin: 2em 3em 2em 3em;
+}
+
+.btn_wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2em;
+}
+
+.btn_back{
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+
+.btn{
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    border-radius: 0px;
+    color: black;
+    padding: 13px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 900;
+    
+    transition-duration: 0.4s;
+    position: relative;
+    right: .5em;
+    bottom: .5em;
+}
+
+.btn:hover {
+    right: 0em;
+    bottom: 0em;
+}
+
+.black{
+    background-color: black;
+}
+
+.white{
+    color: #FFFFFF;
+}
+
+.mt{
+    margin-top: 3em;
+}
+
+.text{
+    text-align: left;
+    margin-left: 1em;
+}
+
+.quem_no_somos{
+    max-width: 100%;
+    padding-top: 1em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.left{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.instagram{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4.5em;
+    width: auto; 
+}
+
+.instagram_text{
+    font-size: 20px;
+    margin-top: .5em;
+}
+
+.local_text{
+    margin-top: .3em;
+    margin-bottom: 0;
+    margin-left: .5em;
+    margin-right: .5em;
+    font-size: 17px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&display=swap" rel="stylesheet">        
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>UNI</title>
+    </head>
+    <body>
+        <div class="body">
+            <div class="image">
+                <img class="logo" src="assets/logo.svg" alt="logo">
+            </div>
+            <div class="container">
+                <p class="description-text">Oi, nós somos a uni, um grupo de universitários e vestibulandos da 4° IEQ. Nós gostariamos de te conhecer um pouco mais, por isso fizemos esse questionário:</p>
+                <div class="btn_wrapper">
+                    <div class="btn_back">
+                        <button class="btn" onclick="vaiProQuestionario()"on>PESQUISA</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container black mt quem_no_somos">
+                <h2 class="white text">Quem nós somos</h2>
+                <p class="white text">O uni existe para dar suporte aos universitários da igreja e convidados, ajudar os vestibulandos a escolher o caminho que Deus tem para eles na universidade e levar o evangelho em uma linguagem clara para dentro das universidade de Curitiba. <p>
+            </div>
+            <div class="container">
+                <div class="left">
+                    <h2 class="text">Venha participar</h2>
+                </div>
+                <div class="instagram" onclick="vaiProInstagram()">
+                    <img class="instagram_logo" src="assets/icon_instagram.png" alt="instagram">
+                    <p class="instagram_text">@uni_4ieq</p>
+                </div>
+                <p class="local_text">Sábado, às 17:30h na sala 27</p>
+                <p class="local_text">4°IEQ - Curitiba: R. Delegado Leopoldo Belczak, 1303 - Capão da Imbuia</p>
+            </div>
+            <div class="container">
+                <div style="margin-top: 4em; margin-bottom: 2em;">
+                    <img class="instagram_logo" src="assets/weCare.png" alt="we care logo">
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        function vaiProInstagram(){
+            window.open("https://www.instagram.com/uni_4ieq/", '_blank').focus();
+        }
+        function vaiProQuestionario(){
+            window.open("https://docs.google.com/forms/d/e/1FAIpQLSfocaEI6-YIbtxtA_895lHIDU72WZw8KqBE9Cw1EA2q-VfC6Q/viewform?usp=sf_link", '_blank').focus();
+        }
+    </script>
+</html>
