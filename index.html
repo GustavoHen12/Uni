@@ -18,7 +18,7 @@
                 <p class="description-text">Oi, nós somos a uni, um grupo de universitários e vestibulandos da 4° IEQ</p>
                 <div class="btn_wrapper">
                     <div class="btn_back">
-                        <button class="btn" onclick="vaiProInstagram()"on>@uni_4ieq</button>
+                        <button class="btn" onclick="vaiProInstagram('https:\/\/www.instagram.com/uni_4ieq/')"on>@uni_4ieq</button>
                     </div>
                 </div>
             </div>
@@ -38,23 +38,27 @@
                 <div class="left">
                     <h2 class="text">Venha participar</h2>
                 </div>
-                <div class="instagram" onclick="vaiProInstagram()">
-                    <img class="instagram_logo" src="assets/icon_instagram.png" alt="instagram">
-                    <p class="instagram_text">@uni_4ieq</p>
-                </div>
                 <p class="local_text">Sábado, às 17:30h na sala 27</p>
                 <p class="local_text">4°IEQ - Curitiba: R. Delegado Leopoldo Belczak, 1303 - Capão da Imbuia</p>
-            </div>
-            <div class="container">
-                <div style="margin-top: 4em; margin-bottom: 2em;">
-                    <img class="instagram_logo" src="assets/weCare.png" alt="we care logo">
+                <div class="inline">
+                    <div class="instagram" onclick="vaiProInstagram('https:\/\/www.instagram.com/wecaremvmnt/')">
+                        <img class="instagram_logo" src="assets/weCare.png" alt="instagram">
+                        <p class="instagram_text">@wecaremvmnt</p>
+                    </div>
+
+                    <p class="plus">+</p>
+
+                    <div class="instagram" onclick="vaiProInstagram('https:\/\/www.instagram.com/uni_4ieq/')">
+                        <img class="instagram_logo instagram_logo_uni" src="assets/logo.svg" alt="instagram">
+                        <p class="instagram_text">@uni_4ieq</p>
+                    </div>
                 </div>
             </div>
         </div>
     </body>
     <script>
-        function vaiProInstagram(){
-            window.open("https://www.instagram.com/uni_4ieq/", '_blank').focus();
+        function vaiProInstagram(url){
+            window.open(url, '_blank').focus();
         }
         function vaiProQuestionario(){
             window.open("https://docs.google.com/forms/d/e/1FAIpQLSfocaEI6-YIbtxtA_895lHIDU72WZw8KqBE9Cw1EA2q-VfC6Q/viewform?usp=sf_link", '_blank').focus();
