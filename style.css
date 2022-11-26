@@ -2,9 +2,8 @@ html {
     margin: 0px;
     height: 100%;
     width: 100%;
-    background-color: #FFCB06;
 }
-  
+
 body {
     margin: 0;
     min-height: 100%;
@@ -30,7 +29,7 @@ header, .container{
     align-items: center;
     padding-top: 5em;
     margin: auto;
-    height: 10em;
+    height: 3.5em;
     width: auto;
 }
 
@@ -38,10 +37,10 @@ p{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
 
-    color: #F5000B;
+    color: #000000;
 }
 
 .description-text{
@@ -60,7 +59,7 @@ p{
 }
 
 .btn_back{
-    background-color: #F5000B;
+    background-color: #000000;
     padding: 0;
     margin: 0;
     width: auto;
@@ -69,10 +68,10 @@ p{
 }
 
 .btn{
-    background-color: #FFCB06;
-    border: 2px solid #F5000B;
+    background-color: #FFFFFF;
+    border: 2px solid black;
     border-radius: 0px;
-    color: #F5000B;
+    color: black;
     padding: 13px 22px;
     text-align: center;
     text-decoration: none;
@@ -80,7 +79,7 @@ p{
     font-size: 16px;
     cursor: pointer;
     font-weight: 900;
-    
+
     transition-duration: 0.4s;
     position: relative;
     right: .5em;
@@ -93,11 +92,11 @@ p{
 }
 
 .black{
-    background-color: #F5000B;
+    background-color: black;
 }
 
 .white{
-    color: #FFCB06;
+    color: #FFFFFF;
 }
 
 .mt{
@@ -107,19 +106,6 @@ p{
 .text{
     text-align: left;
     margin-left: 1em;
-}
-
-.li_text {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    text-align: left;
-}
-
-.li_title {
-    margin-left: .6em;
-    margin-bottom: .3em;
 }
 
 .quem_no_somos{
@@ -159,35 +145,9 @@ p{
     width: auto; 
 }
 
-.instagram_logo_uni {
-    height: 2.5em;
-}
-
-.inline {
-    height: auto;
-    width: 90%;
-    padding-left: 1em;
-    padding-right: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.plus{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 60px;
-    text-align: left;
-    color: black;
-    margin-left: 0;
-    margin-right: 0;
-}
 .instagram_text{
     font-size: 20px;
     margin-top: .5em;
-    color: black;
 }
 
 .local_text{
