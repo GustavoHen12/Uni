@@ -7,7 +7,6 @@ html {
 body {
     margin: 0;
     min-height: 100%;
-    background-color: #FFD229;
 }
 
 *{
@@ -30,7 +29,7 @@ header, .container{
     align-items: center;
     padding-top: 5em;
     margin: auto;
-    height: 7em;
+    height: 3.5em;
     width: auto;
 }
 
@@ -41,7 +40,7 @@ p{
     font-size: 15px;
     text-align: center;
 
-    color: #7A0B8F;
+    color: #000000;
 }
 
 .description-text{
@@ -60,7 +59,7 @@ p{
 }
 
 .btn_back{
-    background-color: #7A0B8F;
+    background-color: #000000;
     padding: 0;
     margin: 0;
     width: auto;
@@ -69,10 +68,10 @@ p{
 }
 
 .btn{
-    background-color: #FFD229;
-    border: 2px solid #7A0B8F;
+    background-color: #FFFFFF;
+    border: 2px solid black;
     border-radius: 0px;
-    color: #7A0B8F;
+    color: black;
     padding: 13px 22px;
     text-align: center;
     text-decoration: none;
@@ -93,7 +92,7 @@ p{
 }
 
 .black{
-    background-color: #7A0B8F;
+    background-color: black;
 }
 
 .white{
@@ -117,19 +116,6 @@ p{
     flex-direction: column;
     justify-content: start;
     align-items: start;
-}
-
-.li_text {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    text-align: left;
-}
-
-.li_title {
-    margin-left: .6em;
-    margin-bottom: .3em;
 }
 
 .left{
