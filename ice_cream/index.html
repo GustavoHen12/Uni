@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&display=swap" rel="stylesheet">        
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="/assets/sorv (1).ico">
+        <link rel="stylesheet" href="style.css">
+        <title>UNI</title>
+    </head>
+    <body>
+        <div class="body">
+            <div class="image">
+                <img class="logo" src="assets/sorveteLogo.png" alt="logo">
+            </div>
+            <div class="container">
+                <p class="description-text">Venha começar bem o ano, comendo muuuuito sorvete, jogando e se divertindo com a gente !</p>
+                <p class="description-text">As inscrições para esse evento foram encerradas, mas acompanhe a gente no instagram para ficar por dentro dos próximos eventos</p>
+                <div class="btn_wrapper">
+                    <div class="btn_back">
+                        <button class="btn" onclick="vaiProInstagram('https:\/\/www.instagram.com/uni_4ieq/')"on>INSTAGRAM</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container black mt quem_no_somos">
+                <h2 class="white li_title">Informações</h2>
+                <ul>
+                    <li class="white li_text">Data: 03/02/2023</li>
+                    <li class="white li_text">Horário: das 20h às 22h</li>
+                    <li class="white li_text">Local: 4°IEQ - Curitiba, Espaço Ágape </li>
+                    <li class="white li_text">Endereço: R. Delegado Leopoldo Belczak, 1303 - Capão da Imbuia</li>
+                </ul>
+
+                <h2 class="white li_title">Inscrição</h2>
+                <ul>
+                    <li class="white li_text">Faça sua inscrição pelo formulário clicando no botão acima.</li>
+                    <li class="white li_text">Ao final do formulário você receberá um link para o grupo no whatsapp do evento</li>
+                    <li class="white li_text">Não se esqueça de nos seguir no instagram para ficar por dentro de tudo</li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="left">
+                    <h2 class="text">Organização</h2>
+                </div>
+                <!-- <p class="local_text">Sábado, às 17:30h na sala 27</p>
+                <p class="local_text">4°IEQ - Curitiba: R. Delegado Leopoldo Belczak, 1303 - Capão da Imbuia</p> -->
+                <div class="inline">
+                    <div class="instagram" onclick="vaiProInstagram('https:\/\/www.instagram.com/wecaremvmnt/')">
+                        <img class="instagram_logo" src="assets/weCare.png" alt="instagram">
+                        <p class="instagram_text">@wecaremvmnt</p>
+                    </div>
+
+                    <p class="plus">+</p>
+
+                    <div class="instagram" onclick="vaiProInstagram('https:\/\/www.instagram.com/uni_4ieq/')">
+                        <img class="instagram_logo instagram_logo_uni" src="assets/logo.svg" alt="instagram">
+                        <p class="instagram_text">@uni_4ieq</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        function vaiProInstagram(url){
+            window.open(url, '_blank').focus();
+        }
+        function vaiProQuestionario(){
+            window.open("https://docs.google.com/forms/d/e/1FAIpQLSfocaEI6-YIbtxtA_895lHIDU72WZw8KqBE9Cw1EA2q-VfC6Q/viewform?usp=sf_link", '_blank').focus();
+        }
+    </script>
+</html>
