@@ -7,6 +7,7 @@ html {
 body {
     margin: 0;
     min-height: 100%;
+    background-color: #000000;
 }
 
 *{
@@ -29,7 +30,7 @@ header, .container{
     align-items: center;
     padding-top: 5em;
     margin: auto;
-    height: 3.5em;
+    height: 7em;
     width: auto;
 }
 
@@ -40,7 +41,7 @@ p{
     font-size: 15px;
     text-align: center;
 
-    color: #000000;
+    color: #ff0412;
 }
 
 .description-text{
@@ -59,7 +60,7 @@ p{
 }
 
 .btn_back{
-    background-color: #000000;
+    background-color: #ff0412;
     padding: 0;
     margin: 0;
     width: auto;
@@ -68,10 +69,10 @@ p{
 }
 
 .btn{
-    background-color: #FFFFFF;
-    border: 2px solid black;
+    background-color: #000000;
+    border: 2px solid #ff0412;
     border-radius: 0px;
-    color: black;
+    color: #ff0412;
     padding: 13px 22px;
     text-align: center;
     text-decoration: none;
@@ -92,11 +93,11 @@ p{
 }
 
 .black{
-    background-color: black;
+    background-color: #ff0412;
 }
 
 .white{
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .mt{
@@ -116,6 +117,19 @@ p{
     flex-direction: column;
     justify-content: start;
     align-items: start;
+}
+
+.li_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+}
+
+.li_title {
+    margin-left: .6em;
+    margin-bottom: .3em;
 }
 
 .left{
