@@ -30,7 +30,7 @@ header, .container{
     align-items: center;
     padding-top: 5em;
     margin: auto;
-    height: 7em;
+    height: 10em;
     width: auto;
 }
 
@@ -41,7 +41,7 @@ p{
     font-size: 15px;
     text-align: center;
 
-    color: #ff0412;
+    color: #ffffff;
 }
 
 .description-text{
@@ -60,7 +60,7 @@ p{
 }
 
 .btn_back{
-    background-color: #ff0412;
+    background-color: #ffffff;
     padding: 0;
     margin: 0;
     width: auto;
@@ -70,9 +70,9 @@ p{
 
 .btn{
     background-color: #000000;
-    border: 2px solid #ff0412;
+    border: 2px solid #ffffff;
     border-radius: 0px;
-    color: #ff0412;
+    color: #ffffff;
     padding: 13px 22px;
     text-align: center;
     text-decoration: none;
@@ -93,7 +93,7 @@ p{
 }
 
 .black{
-    background-color: #ff0412;
+    background-color: #ffffff;
 }
 
 .white{
